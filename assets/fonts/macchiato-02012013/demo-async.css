@@ -1,0 +1,35 @@
+@font-face{
+font-family:"Futura PT W01 Book";
+src:url("Fonts/17abcb18-cb81-4d9c-b55c-5ded2109e506.eot?#iefix");
+src:url("Fonts/17abcb18-cb81-4d9c-b55c-5ded2109e506.eot?#iefix") format("eot"),url("Fonts/81d44d4b-ac07-4ad4-8cdd-4df771a3c1c3.woff") format("woff"),url("Fonts/f47c9a36-7884-483a-80d7-57f9ee691407.ttf") format("truetype"),url("Fonts/b6a5374f-5656-4627-b423-1ba121767464.svg#b6a5374f-5656-4627-b423-1ba121767464") format("svg");
+}
+@font-face{
+font-family:"FuturaPTW01-BookOblique";
+src:url("Fonts/d7a84526-5c51-462c-bdef-e84462e2cb44.eot?#iefix");
+src:url("Fonts/d7a84526-5c51-462c-bdef-e84462e2cb44.eot?#iefix") format("eot"),url("Fonts/10cee8c3-6e4c-4f57-8121-cf5e361423a7.woff") format("woff"),url("Fonts/938e03f7-a623-4f23-aa2b-f6efdc03d731.ttf") format("truetype"),url("Fonts/39954dc0-891f-4172-951b-e7eebeeee411.svg#39954dc0-891f-4172-951b-e7eebeeee411") format("svg");
+}
+@font-face{
+font-family:"Futura PT W01 Demi";
+src:url("Fonts/fa09a53f-1925-44fc-a00b-a133fa6e7e23.eot?#iefix");
+src:url("Fonts/fa09a53f-1925-44fc-a00b-a133fa6e7e23.eot?#iefix") format("eot"),url("Fonts/e4eacf8d-aba1-40d4-9597-1198e91dcf00.woff") format("woff"),url("Fonts/0274b668-7ceb-4cae-96cf-eeeec93f3254.ttf") format("truetype"),url("Fonts/d6f7bb1f-4174-4eb7-b0eb-6eec4e96b2af.svg#d6f7bb1f-4174-4eb7-b0eb-6eec4e96b2af") format("svg");
+}
+@font-face{
+font-family:"Futura PT W01 Light";
+src:url("Fonts/9869762c-2f06-40c3-929e-2d412d64cd87.eot?#iefix");
+src:url("Fonts/9869762c-2f06-40c3-929e-2d412d64cd87.eot?#iefix") format("eot"),url("Fonts/eceb6e13-403b-4d2b-af74-c05bc9c2535e.woff") format("woff"),url("Fonts/956fd236-834e-4736-91af-a04cadf17544.ttf") format("truetype"),url("Fonts/88e3bfcb-64f4-4e6f-9785-472510bd5208.svg#88e3bfcb-64f4-4e6f-9785-472510bd5208") format("svg");
+}
+@font-face{
+font-family:"FuturaPTW01-LightObliqu";
+src:url("Fonts/40f2d0be-81d9-4f03-83e2-8823175e604f.eot?#iefix");
+src:url("Fonts/40f2d0be-81d9-4f03-83e2-8823175e604f.eot?#iefix") format("eot"),url("Fonts/8cb58a58-1da7-4cda-8284-52cf5bf67bf5.woff") format("woff"),url("Fonts/6c33fee6-2cc1-4ab5-9f6e-785893bc3245.ttf") format("truetype"),url("Fonts/4dfa4739-61b4-454d-a6ba-e1160c446b4d.svg#4dfa4739-61b4-454d-a6ba-e1160c446b4d") format("svg");
+}
+@font-face{
+font-family:"Futura PT W01 Medium";
+src:url("Fonts/c0b084f4-7139-4e63-ba96-7f3a421195c3.eot?#iefix");
+src:url("Fonts/c0b084f4-7139-4e63-ba96-7f3a421195c3.eot?#iefix") format("eot"),url("Fonts/83e72918-97c3-41cd-8a7d-4056788a00f0.woff") format("woff"),url("Fonts/5b88228b-bd3b-49f4-b7c2-db89968ce116.ttf") format("truetype"),url("Fonts/20048613-c880-452b-a12c-fc1ea23e8d5f.svg#20048613-c880-452b-a12c-fc1ea23e8d5f") format("svg");
+}
+@font-face{
+font-family:"FuturaPTW01-MediumObliq";
+src:url("Fonts/43b27e2f-6376-43ee-8a63-020009fa45a1.eot?#iefix");
+src:url("Fonts/43b27e2f-6376-43ee-8a63-020009fa45a1.eot?#iefix") format("eot"),url("Fonts/97eeb983-cbcb-40c4-b724-919d44b8d4af.woff") format("woff"),url("Fonts/2889ab2c-64cf-45c0-be86-e14cc28b324a.ttf") format("truetype"),url("Fonts/870852b2-1fbd-44b8-bf52-1f6c79f4679b.svg#870852b2-1fbd-44b8-bf52-1f6c79f4679b") format("svg");
+}

@@ -410,34 +410,34 @@ $vars["head_title"] = trim(preg_replace('/<[^>]*>/', ' ', htmlspecialchars_decod
   drupal_add_css('
     @font-face{
       font-family:"Futura Plus W08_n4";
-      src:url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/2f6406ca-a7e5-4511-8b62-a512d422694f.eot?#iefix") format("eot")
+      src:url("../assets/fonts/macchiato2-08102014/Fonts/2f6406ca-a7e5-4511-8b62-a512d422694f.eot?#iefix") format("eot")
     }
     @font-face{
       font-family:"Futura Plus W08";
-      src:url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/2f6406ca-a7e5-4511-8b62-a512d422694f.eot?#iefix");
-      src:url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/2f6406ca-a7e5-4511-8b62-a512d422694f.eot?#iefix") format("eot"),url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/40780796-f5dd-4ccf-89d6-5e9feed1b4c3.woff") format("woff"),url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/23f02811-b2c6-4ebb-8d95-27bda6a2745a.ttf") format("truetype"),url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/b38e2f36-b705-4816-baaf-083a1a6ae753.svg#b38e2f36-b705-4816-baaf-083a1a6ae753") format("svg");
+      src:url("../assets/fonts/macchiato2-08102014/Fonts/2f6406ca-a7e5-4511-8b62-a512d422694f.eot?#iefix");
+      src:url("../assets/fonts/macchiato2-08102014/Fonts/2f6406ca-a7e5-4511-8b62-a512d422694f.eot?#iefix") format("eot"),url("../assets/fonts/macchiato2-08102014/Fonts/40780796-f5dd-4ccf-89d6-5e9feed1b4c3.woff") format("woff"),url("../assets/fonts/macchiato2-08102014/Fonts/23f02811-b2c6-4ebb-8d95-27bda6a2745a.ttf") format("truetype"),url("../assets/fonts/macchiato2-08102014/Fonts/b38e2f36-b705-4816-baaf-083a1a6ae753.svg#b38e2f36-b705-4816-baaf-083a1a6ae753") format("svg");
       font-weight: 400;
       font-style: normal;
     }
     @font-face{
       font-family:"Futura Plus W08_n3";
-      src:url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/27e35786-951e-4f3f-8819-f57fb26b5f59.eot?#iefix") format("eot")
+      src:url("../assets/fonts/macchiato2-08102014/Fonts/27e35786-951e-4f3f-8819-f57fb26b5f59.eot?#iefix") format("eot")
     }
     @font-face{
       font-family:"Futura Plus W08";
-      src:url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/27e35786-951e-4f3f-8819-f57fb26b5f59.eot?#iefix");
-      src:url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/27e35786-951e-4f3f-8819-f57fb26b5f59.eot?#iefix") format("eot"),url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/46e5db04-2200-416c-8772-e8e92ac66d85.woff") format("woff"),url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/c34adf43-f679-46f0-8f37-6d892f520fc9.ttf") format("truetype"),url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/ba579ea8-4cf7-445f-ad75-cdca4f8438d6.svg#ba579ea8-4cf7-445f-ad75-cdca4f8438d6") format("svg");
+      src:url("../assets/fonts/macchiato2-08102014/Fonts/27e35786-951e-4f3f-8819-f57fb26b5f59.eot?#iefix");
+      src:url("../assets/fonts/macchiato2-08102014/Fonts/27e35786-951e-4f3f-8819-f57fb26b5f59.eot?#iefix") format("eot"),url("../assets/fonts/macchiato2-08102014/Fonts/46e5db04-2200-416c-8772-e8e92ac66d85.woff") format("woff"),url("../assets/fonts/macchiato2-08102014/Fonts/c34adf43-f679-46f0-8f37-6d892f520fc9.ttf") format("truetype"),url("../assets/fonts/macchiato2-08102014/Fonts/ba579ea8-4cf7-445f-ad75-cdca4f8438d6.svg#ba579ea8-4cf7-445f-ad75-cdca4f8438d6") format("svg");
       font-weight: 300;
       font-style: normal;
     }
     @font-face{
       font-family:"Futura Plus W08_n1";
-      src:url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/81c68bb2-c8a7-490a-86a2-8b8e4ea83e52.eot?#iefix") format("eot")
+      src:url("../assets/fonts/macchiato2-08102014/Fonts/81c68bb2-c8a7-490a-86a2-8b8e4ea83e52.eot?#iefix") format("eot")
     }
     @font-face{
       font-family:"Futura Plus W08";
-      src:url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/81c68bb2-c8a7-490a-86a2-8b8e4ea83e52.eot?#iefix");
-      src:url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/81c68bb2-c8a7-490a-86a2-8b8e4ea83e52.eot?#iefix") format("eot"),url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/accdf66a-3ef9-40bd-a2d9-141ce67745a0.woff") format("woff"),url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/91b74c83-4dbb-4d24-abf2-7665c88d68c1.ttf") format("truetype"),url("https://medschool.vanderbilt.edu/shared-assets/fonts.com/macchiato2-08102014/Fonts/fec411ea-113e-46b5-af10-c4cb416eaaf9.svg#fec411ea-113e-46b5-af10-c4cb416eaaf9") format("svg");
+      src:url("../assets/fonts/macchiato2-08102014/Fonts/81c68bb2-c8a7-490a-86a2-8b8e4ea83e52.eot?#iefix");
+      src:url("../assets/fonts/macchiato2-08102014/Fonts/81c68bb2-c8a7-490a-86a2-8b8e4ea83e52.eot?#iefix") format("eot"),url("../assets/fonts/macchiato2-08102014/Fonts/accdf66a-3ef9-40bd-a2d9-141ce67745a0.woff") format("woff"),url("../assets/fonts/macchiato2-08102014/Fonts/91b74c83-4dbb-4d24-abf2-7665c88d68c1.ttf") format("truetype"),url("../assets/fonts/macchiato2-08102014/Fonts/fec411ea-113e-46b5-af10-c4cb416eaaf9.svg#fec411ea-113e-46b5-af10-c4cb416eaaf9") format("svg");
       font-weight: 100;
       font-style: normal;
     }

@@ -134,8 +134,8 @@ blockquote {
 
   <?php print $scripts; ?>
   <!-- fav and touch icons -->
-  <link rel="shortcut icon" href="https://medschool.vanderbilt.edu/shared-assets/macchiato/2.0.3/images/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://medschool.vanderbilt.edu/shared-assets/macchiato/2.0.3/images/apple-touch-icon.png" />
+  <link rel="shortcut icon" href="<?php print base_path() . path_to_theme("macchiato"); ?>/assets/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="<?php print base_path() . path_to_theme("macchiato"); ?>/assets/images/apple-touch-icon.png" />
   <!-- SiteImprove - end of head -->
   <script type="text/javascript">
           /*<![CDATA[*/
