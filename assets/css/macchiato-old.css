@@ -1,0 +1,534 @@
+
+
+
+
+
+
+
+
+
+/*
+Remember to put (at least) rudimentary styles for functionality added by modules in that module's CSS so it works across other themes.
+*/
+nav li.external a:after, a.external:after {
+  content: "\f08e";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+  padding-left: 5px;
+  opacity: .5;
+  font-size: .8em;
+}
+
+
+.inline-administrator-links {
+  float: right;
+  position: relative;
+  z-index: 10000;
+}
+.barista-thumbnail {
+  max-width: 60px;
+}
+.barista_person_photo_grid_thumbnail {
+  max-width: 150px;
+}
+.nav-pills.primary-local {
+  text-align: center;
+}
+.nav-pills.primary-local>li, .nav-pills.primary-local>li {
+  display: inline;
+  display: inline-block;
+  float: none;
+}
+.nav-pills.primary-local>li i.icon-pencil, .nav-pills.primary-local>li i.icon-pencil {
+  padding-right: 4px;
+}
+
+.page-user.not-logged-in .region-content .well {
+  max-width: 50%;
+  margin: 0 auto;
+}
+.page-user.not-logged-in .section-main-content  header h1 {
+  display: none;
+}
+.page-user.not-logged-in .region-content .item-list {
+  display: inline;
+  list-style-type: none;
+}
+.page-user.not-logged-in .region-content .item-list ul {
+  display: inline;
+  list-style-type: none;
+}
+.page-user.not-logged-in .region-content .item-list li {
+  background: none;
+  display: inline;
+  margin: 0;
+
+}
+.page-user.not-logged-in .region-content .item-list li:before {
+  display: none;
+}
+.page-user.not-logged-in .region-content #edit-cas-login-redirection-message {
+  display: inline;
+}
+.page-user.not-logged-in .region-content .form-actions {
+  background: 0;
+  margin: 30px 0 0 0;
+  padding: 0;
+  border: 0;
+}
+.page-user.not-logged-in .region-content form {
+  margin: 0;
+}
+.page-user.not-logged-in .region-content .block {
+  margin: 0;
+}
+
+.field .field-label {
+  font-weight: normal;
+  font-family: 'Futura PT W01 Book',Arial,Helvetica,sans-serif;
+}
+.field-item {
+  margin-bottom: 30px;
+}
+#block-system-main {
+  margin: 0;
+}
+/*
+.has-featured .banner {
+  background: none;
+}
+.has-featured .hero {
+  background-color: #eee;
+  padding: 30px 0; 
+}
+*/
+
+
+.bean-recent-blog-posts .barista_posts_recent_post {
+  clear: both;
+}
+.bean-recent-blog-posts .has-image .barista_posts_recent_post_content {
+  margin-left: 100px;
+}
+.bean-recent-blog-posts .has-image img, .bean-recent-blog-posts .has-image .placeholder-img {
+  border: 1px solid #DDD;
+  padding: 3px !important;
+  margin-bottom: 1em;
+}
+.bean-recent-blog-posts .has-image .placeholder-img {
+  background:#EFEFEF;
+  display:inline-block;
+  width:80px;
+  height:80px;
+  text-align:center;
+  line-height:80px;
+  overflow:hidden;
+  margin-bottom:1em;
+  position: relative;
+}
+.bean-recent-blog-posts .has-image .placeholder-img i.icon-v {
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  font-size: 80px;
+  color:#DDD;
+}
+
+.list-item {
+  margin-bottom: 1em;
+}
+.list-item:last-child, .list-item.last-child {
+  margin-bottom: 0;
+}
+.block h2.barista-list-title, .sidebar .block h2.barista-list-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6b6b6b;
+  margin: 0;
+}
+.barista-list-date {
+  opacity: .7;
+}
+.barista-list-date i {
+  font-size: .85em;
+  margin-right: 2px;
+  position: relative;
+  top: -1px;
+}
+
+.bean-recent-blog-posts .barista-posts-featured-image-and-caption {
+  float: left;
+  margin: 0;
+}
+
+
+
+.field-name-field-barista-rss-url .date {
+  font-size: .8em;
+  color: #999;
+  display: block;
+}
+
+#fullnav-wrapper a i.icon-lock {
+  margin-right: 3px;
+  font-size: .9em;
+}
+.sidenav a i.icon-lock {
+  margin-right: 3px;
+}
+.menu-node-unpublished .label {
+  vertical-align: middle;
+}
+
+/* Hide the administrative local tasks froom the main content container (they're in the admin bar) */
+/*
+.main-content-container .primary-local .admin-localtask{
+  display: none;
+}
+.main-content-container .primary-local.entirely-admin-links {
+  display: none;
+}
+*/
+/*
+.nav-pills .admin-localtask a, 
+.nav-pills .admin-localtask a:hover,
+.nav-pills .admin-localtask a:visited  {
+  color: black;
+}
+
+.nav-pills > .active > a, 
+.nav-pills > .active > a:hover {
+  background: black !important;
+  color: white !important;
+}
+*/
+
+
+
+.sidebar section.block > .content  {
+  padding: 22px;
+  padding-top: 11px;
+}
+.sidebar .block-bean > h1 {
+  padding: 0 22px;
+  margin-bottom: 0;
+}
+.block .content {
+  zoom: 1; /* For IE8 */
+}
+/*
+* Styles shared by filled blocks
+*/
+.blockstyle-accent > h1, .blockstyle-lightaccent > h1, .blockstyle-accentheader > h1,
+.sidebar .blockstyle-accent > h1, .sidebar .blockstyle-lightaccent > h1, .sidebar .blockstyle-accentheader > h1 {
+  padding: 22px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.blockstyle-accent > .content, .blockstyle-lightaccent > .content, .blockstyle-accentheader > .content,
+.sidebar .blockstyle-accent > .content, .sidebar .blockstyle-lightaccent > .content, .sidebar .blockstyle-accentheader > .content {
+  padding: 22px;
+  padding-top: 11px;
+}
+.blockstyle-accent.block-notitle > .content, .blockstyle-lightaccent.block-notitle > .content, .blockstyle-accentheader.block-notitle > .content,
+.sidebar .blockstyle-accent.block-notitle > .content, .sidebar .blockstyle-lightaccent.block-notitle > .content, .sidebar .blockstyle-accentheader.block-notitle > .content {
+  padding-top: 22px;
+}
+
+.blockstyle-accent .bean-recent-blog-posts .has-image img,
+.blockstyle-lightaccent .bean-recent-blog-posts .has-image img,
+.blockstyle-accentheader .bean-recent-blog-posts .has-image img {
+  background: #FFF;
+}
+
+
+
+
+/*
+* Solid Accent block styles
+*/
+.blockstyle-accent > h1,
+.sidebar .blockstyle-accent > h1 {
+  color: white;
+}
+.blockstyle-accent > .content,
+.sidebar .blockstyle-accent > .content {
+  color: white;
+}
+
+.blockstyle-accent > .content a,
+.sidebar .blockstyle-accent > .content a {
+  color: white;
+  font-weight: bold;
+}
+.blockstyle-accent > .content h1,
+.sidebar .blockstyle-accent > .content h1 {
+  color: white;
+}
+.blockstyle-accent > .content h2,
+.sidebar .blockstyle-accent > .content h2 {
+  color: white;
+}
+.blockstyle-accent > .content h3, .blockstyle-accent > .content h4, .blockstyle-accent > .content h5, .blockstyle-accent > .content h6,
+.sidebar .blockstyle-accent > .content h3, .sidebar .blockstyle-accent > .content h4, .sidebar .blockstyle-accent > .content h5, .sidebar .blockstyle-accent > .content h6 {
+  color: white;
+}
+
+
+/*
+* Light Accent Color
+*/ 
+
+.blockstyle-lightaccent > .content,
+.sidebar .blockstyle-lightaccent > .content {
+ background-color: transparent;
+ background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+ background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(255, 255, 255, 0.85)), to(rgba(255, 255, 255, 0.85)));
+ background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+ background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+ background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+ background-repeat: repeat-x;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9ffffff', endColorstr='#d9ffffff', GradientType=1);
+}
+
+.blockstyle-lightaccent > h1,
+.sidebar .blockstyle-lightaccent > h1 {
+  background-color: transparent;
+  background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(255, 255, 255, 0.85)), to(rgba(255, 255, 255, 0.85)));
+  background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+  background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9ffffff', endColorstr='#d9ffffff', GradientType=1); 
+}
+
+
+/*
+*  Accent Header Color, Light Body
+*/ 
+.blockstyle-accentheader > h1,
+.sidebar .blockstyle-accentheader > h1 {
+  color: white;
+  padding-top: 11px;
+  padding-bottom: 8px;
+}
+.blockstyle-accentheader > .content,
+.sidebar .blockstyle-accentheader > .content {
+ padding-top: 22px;
+ background-color: transparent;
+ background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+ background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(255, 255, 255, 0.85)), to(rgba(255, 255, 255, 0.85)));
+ background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+ background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+ background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85));
+ background-repeat: repeat-x;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9ffffff', endColorstr='#d9ffffff', GradientType=1);
+}
+
+
+.block {
+  word-wrap: break-word;
+}
+
+
+.field-item {
+  margin-bottom: 22px;
+}
+.field-item.last-child {
+  margin-bottom: 0;
+}
+#block-barista-block-placement-content {
+  margin: 0;
+}
+#block-system-main {
+  margin-top: 22px;
+}
+
+
+/* Resize all block titles so largest is main content's h2 */
+section.block>h1 {
+  font-size: 28px;
+  line-height: 33px;
+  opacity: 1;
+
+}
+.block h1, .block h2 {
+  font-size: 21px;
+  opacity: 1;
+  line-height: 22px;
+
+}
+.block h3 {
+  font-size: 17.5px;
+  opacity: 1;
+
+}
+.block h4 {
+  font-size: 16.5px;
+  opacity: 1;
+}
+.block h5 {
+  font-size: 16.5px;
+  opacity: .85;
+}
+.block h6 {
+  font-size: 16.5px;
+  opacity: .7;
+}
+
+
+/* Make block titles in accent areas and sidebar blocks so largest is main content's h3 */
+section.blockstyle-accent > h1,
+section.blockstyle-lightaccent > h1,
+section.blockstyle-accentheader > h1,
+.sidebar section.block > h1 {
+  font-size: 21px;
+  line-height: 22px;
+  opacity: 1;
+
+}
+.blockstyle-accent h2, .blockstyle-accent h1,
+.blockstyle-lightaccent h2, .blockstyle-lightaccent h1,
+.blockstyle-accentheader h2, .blockstyle-accentheader h1,
+.sidebar .block > h2 {
+  font-size: 21px;
+  opacity: 1;
+}
+.blockstyle-accent h3,
+.blockstyle-lightaccent h3,
+.blockstyle-accentheader h3,
+.sidebar .block > h3 {
+  font-size: 18.5px;
+  opacity: 1;
+}
+.blockstyle-accent h4,
+.blockstyle-lightaccent h4,
+.blockstyle-accentheader h4,
+.sidebar .block > h4 {
+  font-size: 17.5px;
+  opacity: 1;
+}
+.blockstyle-accent h5,
+.blockstyle-lightaccent h5,
+.blockstyle-accentheader h5,
+.sidebar .block > h5 {
+  font-size: 16.5px;
+  opacity: 1;
+}
+.blockstyle-accent h6,
+.blockstyle-lightaccent h6,
+.blockstyle-accentheader h6,
+.sidebar .block > h6 {
+  font-size: 16.5px;
+  opacity: .7;
+}
+
+/* Titles in these long fields need to start so largest is main content's h4*/
+.node-type-person #block-system-main.block .field-name-field-clinical-interest .field-item h1,
+.node-type-person #block-system-main.block .field-name-field-postdoctoral-positions .field-item h1,
+.node-type-person #block-system-main.block .field-name-field-research-description .field-item h1,
+.node-type-person #block-system-main.block .field-name-body .field-item h1,
+.node-type-person #block-system-main.block .field-name-field-clinical-interest .field-item h2,
+.node-type-person #block-system-main.block .field-name-field-postdoctoral-positions .field-item h2,
+.node-type-person #block-system-main.block .field-name-field-research-description .field-item h2,
+.node-type-person #block-system-main.block .field-name-body .field-item h2 {
+  font-size: 17.5px;
+  opacity: 1;
+}
+.node-type-person #block-system-main.block .field-name-field-clinical-interest .field-item h3,
+.node-type-person #block-system-main.block .field-name-field-postdoctoral-positions .field-item h3,
+.node-type-person #block-system-main.block .field-name-field-research-description .field-item h3,
+.node-type-person #block-system-main.block .field-name-body .field-item h3 {
+  font-size: 17.5px;
+  opacity: .85;
+}
+.node-type-person #block-system-main.block .field-name-field-clinical-interest .field-item h4,
+.node-type-person #block-system-main.block .field-name-field-postdoctoral-positions .field-item h4,
+.node-type-person #block-system-main.block .field-name-field-research-description .field-item h4,
+.node-type-person #block-system-main.block .field-name-body .field-item h4 {
+  font-size: 17.5px;
+  opacity: .7;
+}
+.node-type-person #block-system-main.block .field-name-field-clinical-interest .field-item h5,
+.node-type-person #block-system-main.block .field-name-field-postdoctoral-positions .field-item h5,
+.node-type-person #block-system-main.block .field-name-field-research-description .field-item h5,
+.node-type-person #block-system-main.block .field-name-body .field-item h5 {
+  font-size: 17.5px;
+  opacity: .6;
+}
+.node-type-person #block-system-main.block .field-name-field-clinical-interest .field-item h6,
+.node-type-person #block-system-main.block .field-name-field-postdoctoral-positions .field-item h6,
+.node-type-person #block-system-main.block .field-name-field-research-description .field-item h6,
+.node-type-person #block-system-main.block .field-name-body .field-item h6 {
+  font-size: 17.5px;
+  opacity: .5;
+}
+
+
+/* Main Content Area */
+#block-system-main.block h1, #block-system-main.block h2 {
+  font-size: 28px;
+  line-height: 33px;
+  opacity: 1;
+}
+#block-system-main.block h3 {
+  font-size: 21px;
+  opacity: 1;
+
+}
+#block-system-main.block h4 {
+  font-size: 17.5px;
+  opacity: 1;
+}
+#block-system-main.block h5 {
+  font-size: 17.5px;
+  opacity: .85;
+}
+#block-system-main.block h6 {
+  font-size: 17.5px;
+  opacity: .7;
+}
+
+
+
+/*
+Reduce the margin of blocks in the main content area so that everything looks like it is all part of the content
+*/
+#block-system-main div.block, #block-system-main section.block {
+  margin: 33px 0;
+}
+#block-barista-block-placement-barista-title {
+  margin: 0;
+}
+.bean-multi-column-block .block {
+  margin-top: 0;
+}
+.bean-multi-column-block .block > h1 {
+  margin-top: 0;
+}
+
+
+/*
+* Make embedded iframes responsive
+*/
+.media_embed {
+  max-width: 100% !important;
+  overflow: auto;
+}
+iframe, object, embed {
+  max-width: 100% !important;
+}

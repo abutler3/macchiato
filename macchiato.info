@@ -1,0 +1,72 @@
+
+; Theme Info -----------------------------------------------------------------
+; required information about the theme
+
+name = Macchiato
+description = Macchiato is a modern, responsive, HTML5, accessible theme for Vanderbilt University School of Medicine
+core = 7.x
+engine = phptemplate
+
+
+; Stylesheets  ---------------------------------------------------------------
+; We use [screen] instead of [all] to avoid browser styles affecting
+; other media types. IE stylesheets are loaded through template.php
+
+; stylesheets[all][] = assets/css/macchiato.css
+
+; Regions --------------------------------------------------------------------
+; these content regions are available for block placement
+; some are special hidden regions: page_top, page_bottom, and help
+
+; these are the stock regions
+; regions[header] = Header
+; regions[footer] = Footer
+regions[featured] = Featured
+; regions[content_top] = Content Top (above title)
+regions[content] = Content
+; regions[content_bottom] = Content Bottom
+; regions[highlighted] = Highlighted
+regions[sidebar_first] = Sidebar
+; regions[sidebar_second] = Sidebar second
+; regions[page_bottom] = Page bottom
+; regions[help] = Help
+
+; Options --------------------------------------------------------------------
+; these are the checkboxes that are available on the theme settings page.
+
+; these are the stock options
+; features[] = logo
+; features[] = name
+; features[] = slogan
+; features[] = node_user_picture
+; features[] = comment_user_picture
+; features[] = comment_user_verification
+; features[] = favicon
+; features[] = main_menu
+; features[] = secondary_menu
+
+; additional theme settings
+; settings[breadcrumb_display]   = yes
+; settings[breadcrumb_separator] = ' › '
+; settings[breadcrumb_home]      = 1
+; settings[breadcrumb_trailing]  = 0
+; settings[breadcrumb_title]     = 0
+settings[show_standard_footer_links] = 1
+settings[show_standard_footer_links] = 1
+settings[show_vusm_social_media_links] = 1
+settings[show_site_breadcrumb] = 1
+settings[institutional_breadcrumb_show_vu] = 1
+settings[institutional_breadcrumb_show_vumc] = 1
+settings[institutional_breadcrumb_show_vusm] = 1
+settings[site_accent_color] = matisse
+
+;settings[top_level][vusm] = vusm
+;settings[top_level][vumc] = vumc
+;settings[top_level][vu] = vu
+
+; Information added by drupal.org packaging script on 2012-09-06
+version = "7.x-1.0"
+core = "7.x"
+project = "macchiato"
+datestamp = "1353421003"
+
